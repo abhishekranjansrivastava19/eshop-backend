@@ -43,7 +43,7 @@ app.use(`${api}/users`, usersRouter);
 
 // URI Connection Database
 
-mongoose.connect("mongodb+srv://abhishek:7905355614@cluster0.cihvmuh.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://<userName>:<password>@cluster0.cihvmuh.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     dbname: 'eshop-database'
